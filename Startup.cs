@@ -28,8 +28,6 @@ namespace Microsoft.Azure.SignalR.Samples.ChatRoom
         {
             app.UseMvc();
             app.UseFileServer();
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
             app.UseAzureSignalR(routes =>
             {
                 routes.MapHub<Chat>("/chat");
