@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/20cf04c2-2fb3-4a4e-aa15-ed5c6daaa8ec/resourceGroups/wabone-signalr/providers/Microsoft.Web/sites/wabone-app",
+    "appService.deploySubpath": ""
+}
